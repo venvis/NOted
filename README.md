@@ -14,5 +14,5 @@
     <img src="images/four.png" height="280px" m>
 
   </div>
-
-  <p>Website : https://notedelectronjs.netlify.app/</p>
+  <br>
+  <p align="center" font-size="25px">Website : https://notedelectronjs.netlify.app/</p>

@@ -5,12 +5,12 @@
    <div class="examples" id="examples" display="flex">
 
 
-  <img src="images/one.png" height="50%">
-        <img src="images/two.png" height="50%">
+  <img src="images/one.png" height="200px">
+        <img src="images/two.png" height="200px">
         
   </div>
     <div class="examples" display="flex">
-        <img src="images/three.png" height="50%">
-    <img src="images/four.png" height="50%">
+        <img src="images/three.png" height="200px">
+    <img src="images/four.png" height="200px">
 
   </div>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noted</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/window.js"></script>
+ 
+
+
+
+ 
+
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+          <div class="sidebar">
+        <h1> Notes</h1>
+        <img src="../images/new.png" onclick="newname()">
+        <br><br><br>
+        <div class="content">
+            <h3 id="h3"></h3>
+           
+           
+        </div>
+    </div>
+</div>
+<div class="right" >
+    <div class="header">
+        <br>
+        <img src="../images/notes.png">
+        <h1>NOted</h1>
+    </div>
+    <div class="lines">
+      <div class="styles">
+        <img src="../images/italics.png" id="italics" onclick="italics()">
+        <img src="../images/bold.png" id="bold" onclick="bold()">
+        <img src="../images/underline.png" onclick="underline()">
+        
+    </div>
+    <div class="text">
+        <img src="../images/highlighter.png" id="highlighter" onclick="highlightText()" title="Highlight Selected Region" >
+        <img src="../images/eraser.png" id="eraser" onclick="erase()" title="Erase">
+        <img src="../images/pdf.png" id="image" title="Insert Image Viewer" onclick="printContent()">
+        <img src="../images/font.png" id="font" onclick="font()" title="Change Font">
+        
+    </div>
+   
+    
+</div>
+
+    <p id="p" contenteditable="true">Enter content here......</p>
+
+
+</div>
+</div>
+    
+</body>
+</html>
